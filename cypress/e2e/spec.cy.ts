@@ -7,10 +7,10 @@ describe('home page', () => {
     cy.get('#username')//add user name
       .type('qatestdata')
 
-    cy.get('#password')// add password
+    cy.get('#password')// add password of nbh
       .type('P@$$w0rd')
 
-    cy.get('#login')// click on login button
+    cy.get('#login')// click on login button 
       .click()
 
     cy.wait(10000)
